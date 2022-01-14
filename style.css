@@ -3,7 +3,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, .footer{
     background: #1f2937;
     display: flex;
     flex-direction: column;
@@ -35,4 +35,45 @@ li, .header-secondary-text, a {
 
 .information-images {
     display: flex;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 48px;
+}
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 4px;
+}   
+.quote-credit {
+   font-size: 14px;
+   margin: auto;
+}
+
+.signup {
+    display: flex;
+   justify-content: center;
+    margin: 48px;
+
+}
+.signup-section {
+    padding: 48px;
+    display: flex;
+    background-color: #3882F6;
+}
+button {
+    background-color: #3882F6;
+
+}
+
+.footer {
+    align-items: center;
+}
+.footer-text {
+    margin: 35px;
 }

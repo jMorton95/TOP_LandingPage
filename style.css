@@ -11,22 +11,22 @@ body {
 }
 .header-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    list-style: none;
 }
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 24px;
+    padding: 12px;
 }
 .header-content {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 10%;
-    padding-right: 10%;
+    
 }
 .header-main-text {
     font-size: 48px;
@@ -38,6 +38,7 @@ ul {
 
 li, .header-secondary-text, a {
     font-size: 18px;
+    margin-left: 8px;
     color: #E5E7EB;
     text-decoration: none;
     
@@ -106,7 +107,18 @@ p {
 button {
     background-color: #3882F6;
     color:#F9FAF8;
+    border-radius: 6px;
 
+}
+
+.header-sign-up {
+    border: none;
+    
+    
+}
+
+.sign-up-right {
+    padding: 8px;
 }
 
 .footer {

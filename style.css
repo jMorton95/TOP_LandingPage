@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .header, .footer{
@@ -14,10 +15,25 @@ body {
 }
 ul {
     display: flex;
+    justify-content: space-between;
 }
 .header-logo {
     font-size: 24px;
+    color: #F9FAF8;
+    padding: 24px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.header-main-text {
+    font-size: 48px;
     color: #F9FAF8
+}
+.header-secondary-text {
+    width: 350px;
 }
 
 li, .header-secondary-text, a {
@@ -33,12 +49,26 @@ li, .header-secondary-text, a {
     width: 200px;
 }
 
+.information-header {
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937
+}
+
 .information-images {
     display: flex;
+    justify-content: space-evenly;
+}
+p {
+    width: 200px;
 }
 
 .testimonials {
     display: flex;
+    align-items: center;
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 48px;
@@ -49,6 +79,8 @@ li, .header-secondary-text, a {
     font-weight: 300;
     font-style: italic;
     padding: 4px;
+    width: 50%;
+    
 }   
 .quote-credit {
    font-size: 14px;
@@ -64,10 +96,16 @@ li, .header-secondary-text, a {
 .signup-section {
     padding: 48px;
     display: flex;
+    justify-content: space-between;
     background-color: #3882F6;
+    color:#F9FAF8;
+}
+.signup-title {
+    font-weight: 700;
 }
 button {
     background-color: #3882F6;
+    color:#F9FAF8;
 
 }
 
